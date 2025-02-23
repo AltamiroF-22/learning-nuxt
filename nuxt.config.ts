@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
+  runtimeConfig: {
+    CURRENCY_API_KEY: process.env.CURRENCY_API_KEY
+  },
   app:{
     head:{
       title:'Nuxt Dojo',
