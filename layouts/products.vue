@@ -1,7 +1,7 @@
 <template>
     <header class="shadow-sm py-4 bg-white">
             <nav class="container mx-auto p-4">
-                <NuxtLink to="/products">Nuxt Dojo Merch</NuxtLink>
+                <NuxtLink class="font-bold text-md" to="/products">Nuxt Dojo Merch</NuxtLink>
                
             </nav>
         </header>

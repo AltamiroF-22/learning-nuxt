@@ -31,4 +31,8 @@ body {
     .btn-secondary:focus {
         @apply ring-2 ring-gray-400 ring-offset-2;
     }
+
+    .card {
+        @apply p-3 rounded-md bg-white shadow-sm h-full
+    }
 }
